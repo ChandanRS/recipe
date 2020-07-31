@@ -16,6 +16,7 @@ form{
   justify-content: center;
   background-color: blueviolet;
   padding: 5px 5px;
+  padding:30px
 }
 
 .search-bar{
@@ -24,6 +25,7 @@ form{
   margin-right: 0.51rem;
   border: none;
   outline: none;
+  
 }
 
 .search-button{
