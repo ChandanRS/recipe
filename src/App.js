@@ -40,7 +40,7 @@ const App = ()=> {
   return (
     <div className="App">
       <form onSubmit={getSearch} className="search-form">
-        <input placeholder="Enter a keyword to find your favorite food recipe" className="search-bar" type="text" value={search} onChange={updateSearch}/>
+        <input placeholder="Enter a keyword to find your favorite food recipe eg. chicken, dosa etc" className="search-bar" type="text" value={search} onChange={updateSearch}/>
         <button className="search-button" type="submit">Submit</button>
       </form>
       <div className="recipes">
